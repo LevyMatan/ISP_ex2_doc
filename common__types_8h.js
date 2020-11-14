@@ -1,7 +1,6 @@
 var common__types_8h =
 [
     [ "ceasar_args_s", "structceasar__args__s.html", "structceasar__args__s" ],
-    [ "CEASAR_DEBUG_OFF", "common__types_8h.html#aa4d38f594497b79e75bf575f73829cb3", null ],
     [ "CEASAR_DEBUG_ON", "common__types_8h.html#ab6decff290acb98062d7fce6a58f61d1", null ],
     [ "DEBUG_LEVEL_HIGHEST", "common__types_8h.html#aad19bef22904b279f885cf97fcb66075", null ],
     [ "DEBUG_LEVEL_LOWEST", "common__types_8h.html#a10c07d9005bfe143de9466f717c69d29", null ],
