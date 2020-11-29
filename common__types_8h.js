@@ -2,9 +2,13 @@ var common__types_8h =
 [
     [ "ceasar_args_s", "structceasar__args__s.html", "structceasar__args__s" ],
     [ "CEASAR_DEBUG_ON", "common__types_8h.html#ab6decff290acb98062d7fce6a58f61d1", null ],
+    [ "CHECK_AND_BREAK", "common__types_8h.html#a7f28dc96228653e7742a5687d23e9239", null ],
+    [ "DEBUG_LEVEL_FIVE", "common__types_8h.html#a8ff10b75745acf0409de91ac1db60a20", null ],
+    [ "DEBUG_LEVEL_FOUR", "common__types_8h.html#a8f32c0bbc5b75d29d67a30d8315bf5ed", null ],
     [ "DEBUG_LEVEL_HIGHEST", "common__types_8h.html#aad19bef22904b279f885cf97fcb66075", null ],
     [ "DEBUG_LEVEL_LOWEST", "common__types_8h.html#a10c07d9005bfe143de9466f717c69d29", null ],
     [ "DEBUG_LEVEL_ONE", "common__types_8h.html#adab028ad33c1ace2ad2bc51c6aad0ac4", null ],
+    [ "DEBUG_LEVEL_THREE", "common__types_8h.html#aff81c997c9611c2854fd1a9d5bba0c3f", null ],
     [ "DEBUG_LEVEL_TWO", "common__types_8h.html#a6c45057238d860cdc3693e9802b95ad6", null ],
     [ "DEBUG_PRINT", "common__types_8h.html#a596f88f10694cc84b74df7727e012d0e", null ],
     [ "DEBUG_PRINT_ARG", "common__types_8h.html#a04f52cd3d2fada8961ec1d353ac5509d", null ],
@@ -27,6 +31,16 @@ var common__types_8h =
       [ "ERROR_INVALID_NUMBER_OF_PARAMETERS_E", "common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a9ec7acfb9ee4014a6620d9205e65b01e", null ],
       [ "ERROR_INVALID_ENCRYPTION_FLAG_E", "common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a827808fdf7bc5c0816b51896e57e4de1", null ],
       [ "ERROR_INVALID_ENCRYPTION_KEY_E", "common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a7d1cfdfa810737b75e276c9a134e1344", null ],
-      [ "ERROR_INVALID_THREAD_NUM_E", "common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a7079daf675d10aa09feda328c3f42774", null ]
+      [ "ERROR_INVALID_THREAD_NUM_E", "common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a7079daf675d10aa09feda328c3f42774", null ],
+      [ "ERROR_FAILED_TO_OPEN_INPUT_FILE_E", "common__types_8h.html#a09c25ad25f326a930ae42ace60b70232af8f8c6f571094d5d77208303beef01f2", null ],
+      [ "ERROR_FAILED_TO_OPEN_OUTPUT_FILE_E", "common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a643e3477c71bc2af6a88663e86bc0bbf", null ],
+      [ "ERROR_FAILED_TO_FIND_INPUT_FILE_END_OF_FILE_E", "common__types_8h.html#a09c25ad25f326a930ae42ace60b70232ae3d4b1aa0f4ac7980570d28113deaddc", null ],
+      [ "ERROR_INPUT_FILE_IS_EMPTY_E", "common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a9c19d6aa948a1a343a5d130bf795adbd", null ],
+      [ "ERROR_FAILED_TO_READ_FILE_E", "common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a5d4ba42d87808f25b59afab9d1853578", null ],
+      [ "ERROR_WRONG_START_POSITION_E", "common__types_8h.html#a09c25ad25f326a930ae42ace60b70232ac7b0be583fdf712dcbba3bbed1cc3f77", null ],
+      [ "ERROR_FSEEK_FAILED_E", "common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a78aaa78cf4b9bb4b770f85ab5575e97e", null ],
+      [ "ERROR_FAILED_WRITE_TO_OUTPUT_FILE_E", "common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a3d5463a5da2745117165b23a453a79c4", null ],
+      [ "ERROR_FAILED_TO_ALLOCATE_MEMORY_E", "common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a5ffa8953d8668e40c26f99ba884847b8", null ],
+      [ "ERROR_FAILED_TO_CREATE_THREAD_E", "common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a2c94b966c744d2ac7c5954e07ee61c47", null ]
     ] ]
 ];

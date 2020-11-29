@@ -1,0 +1,13 @@
+digraph "count_lines_in_file"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="count_lines_in_file",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="counts the number of lines in the file, that is, number of ' ' characters + 1 for the first line...."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="split_lines_between\l_threads",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ceasar_8c.html#aea7f4beae607ecf057074dff358027c6",tooltip="Splits the file for farther proccessing by deviding its lines equally to the threads...."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ceasar__ext_8h.html#a0ddf1224851353fc92bfbff6f499fa97",tooltip="Encrypts or decrypts a message from a file."];
+}

@@ -131,7 +131,9 @@ Macros</h2></td></tr>
 <tr class="separator:ab6decff290acb98062d7fce6a58f61d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e1da3f98202e27d74c6309dec5e8dbf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common__types_8h.html#a9e1da3f98202e27d74c6309dec5e8dbf">print_error_msg</a>(...)</td></tr>
 <tr class="separator:a9e1da3f98202e27d74c6309dec5e8dbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59779b469005fb83465d9126ac5fc9a4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common__types_8h.html#a59779b469005fb83465d9126ac5fc9a4">DEBUG_VERBOSITY_LEVEL</a>&#160;&#160;&#160;(1)</td></tr>
+<tr class="memitem:a7f28dc96228653e7742a5687d23e9239"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common__types_8h.html#a7f28dc96228653e7742a5687d23e9239">CHECK_AND_BREAK</a>(_status_)</td></tr>
+<tr class="separator:a7f28dc96228653e7742a5687d23e9239"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59779b469005fb83465d9126ac5fc9a4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common__types_8h.html#a59779b469005fb83465d9126ac5fc9a4">DEBUG_VERBOSITY_LEVEL</a>&#160;&#160;&#160;(10)</td></tr>
 <tr class="memdesc:a59779b469005fb83465d9126ac5fc9a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Debug Levels Description: To enable debug printing, with easier toggle on/off of specific verbosity levels. Each DEBUG_PRINT statment will be assosicated with a specific verbosity level. A global DEBUG_VERBOSITY_LEVEL will define how many prints of logs we wish to see. The higher it is define, the more prints should be shown. To fully utilize this mechanism, each print statement should think out the how needed are those prints. For example, <a class="el" href="common__types_8h.html#ad4ed3d5d742c56a417076ab5e1a5dd29">DEBUG_PRINT_FUNCTION_START()</a> assigns level one, because it is useally usefull to have a function start and end prints - lets you know a specific function was called and executed. As a rule of thumb, if the print statment is located in a "deep" or long loops, it is wise to assign a larger debug level, so it will show up on when needed to avoid clutter.  <a href="common__types_8h.html#a59779b469005fb83465d9126ac5fc9a4">More...</a><br /></td></tr>
 <tr class="separator:a59779b469005fb83465d9126ac5fc9a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10c07d9005bfe143de9466f717c69d29"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common__types_8h.html#a10c07d9005bfe143de9466f717c69d29">DEBUG_LEVEL_LOWEST</a>&#160;&#160;&#160;(0)</td></tr>
@@ -140,6 +142,12 @@ Macros</h2></td></tr>
 <tr class="separator:adab028ad33c1ace2ad2bc51c6aad0ac4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c45057238d860cdc3693e9802b95ad6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common__types_8h.html#a6c45057238d860cdc3693e9802b95ad6">DEBUG_LEVEL_TWO</a>&#160;&#160;&#160;(2)</td></tr>
 <tr class="separator:a6c45057238d860cdc3693e9802b95ad6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff81c997c9611c2854fd1a9d5bba0c3f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common__types_8h.html#aff81c997c9611c2854fd1a9d5bba0c3f">DEBUG_LEVEL_THREE</a>&#160;&#160;&#160;(3)</td></tr>
+<tr class="separator:aff81c997c9611c2854fd1a9d5bba0c3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f32c0bbc5b75d29d67a30d8315bf5ed"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common__types_8h.html#a8f32c0bbc5b75d29d67a30d8315bf5ed">DEBUG_LEVEL_FOUR</a>&#160;&#160;&#160;(4)</td></tr>
+<tr class="separator:a8f32c0bbc5b75d29d67a30d8315bf5ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ff10b75745acf0409de91ac1db60a20"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common__types_8h.html#a8ff10b75745acf0409de91ac1db60a20">DEBUG_LEVEL_FIVE</a>&#160;&#160;&#160;(5)</td></tr>
+<tr class="separator:a8ff10b75745acf0409de91ac1db60a20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad19bef22904b279f885cf97fcb66075"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common__types_8h.html#aad19bef22904b279f885cf97fcb66075">DEBUG_LEVEL_HIGHEST</a>&#160;&#160;&#160;(10)</td></tr>
 <tr class="separator:aad19bef22904b279f885cf97fcb66075"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a596f88f10694cc84b74df7727e012d0e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common__types_8h.html#a596f88f10694cc84b74df7727e012d0e">DEBUG_PRINT</a>(__DBG_LEVEL__, ...)</td></tr>
@@ -154,6 +162,7 @@ Macros</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
 <tr class="memitem:ad12fa36082f929f50a001bb27539d909"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232">error_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common__types_8h.html#ad12fa36082f929f50a001bb27539d909">error_e</a></td></tr>
+<tr class="memdesc:ad12fa36082f929f50a001bb27539d909"><td class="mdescLeft">&#160;</td><td class="mdescRight">Error enumerators, when shared, allows program call to handle issues.  <a href="common__types_8h.html#ad12fa36082f929f50a001bb27539d909">More...</a><br /></td></tr>
 <tr class="separator:ad12fa36082f929f50a001bb27539d909"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0280518bebd4ddfd89df644669ba6f28"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="common__types_8h.html#a25bf912d97e66dcc654c453f7b4209f0">encryption_mode_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common__types_8h.html#a0280518bebd4ddfd89df644669ba6f28">encryption_mode_e</a></td></tr>
 <tr class="memdesc:a0280518bebd4ddfd89df644669ba6f28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates wether to use to encrypt or decrypt.  <a href="common__types_8h.html#a0280518bebd4ddfd89df644669ba6f28">More...</a><br /></td></tr>
@@ -172,9 +181,23 @@ Enumerations</h2></td></tr>
 <br />
 &#160;&#160;<a class="el" href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a827808fdf7bc5c0816b51896e57e4de1">ERROR_INVALID_ENCRYPTION_FLAG_E</a>, 
 <a class="el" href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a7d1cfdfa810737b75e276c9a134e1344">ERROR_INVALID_ENCRYPTION_KEY_E</a>, 
-<a class="el" href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a7079daf675d10aa09feda328c3f42774">ERROR_INVALID_THREAD_NUM_E</a>
+<a class="el" href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a7079daf675d10aa09feda328c3f42774">ERROR_INVALID_THREAD_NUM_E</a>, 
+<a class="el" href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232af8f8c6f571094d5d77208303beef01f2">ERROR_FAILED_TO_OPEN_INPUT_FILE_E</a>, 
+<br />
+&#160;&#160;<a class="el" href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a643e3477c71bc2af6a88663e86bc0bbf">ERROR_FAILED_TO_OPEN_OUTPUT_FILE_E</a>, 
+<a class="el" href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232ae3d4b1aa0f4ac7980570d28113deaddc">ERROR_FAILED_TO_FIND_INPUT_FILE_END_OF_FILE_E</a>, 
+<a class="el" href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a9c19d6aa948a1a343a5d130bf795adbd">ERROR_INPUT_FILE_IS_EMPTY_E</a>, 
+<a class="el" href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a5d4ba42d87808f25b59afab9d1853578">ERROR_FAILED_TO_READ_FILE_E</a>, 
+<br />
+&#160;&#160;<a class="el" href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232ac7b0be583fdf712dcbba3bbed1cc3f77">ERROR_WRONG_START_POSITION_E</a>, 
+<a class="el" href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a78aaa78cf4b9bb4b770f85ab5575e97e">ERROR_FSEEK_FAILED_E</a>, 
+<a class="el" href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a3d5463a5da2745117165b23a453a79c4">ERROR_FAILED_WRITE_TO_OUTPUT_FILE_E</a>, 
+<a class="el" href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a5ffa8953d8668e40c26f99ba884847b8">ERROR_FAILED_TO_ALLOCATE_MEMORY_E</a>, 
+<br />
+&#160;&#160;<a class="el" href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a2c94b966c744d2ac7c5954e07ee61c47">ERROR_FAILED_TO_CREATE_THREAD_E</a>
 <br />
  }</td></tr>
+<tr class="memdesc:a09c25ad25f326a930ae42ace60b70232"><td class="mdescLeft">&#160;</td><td class="mdescRight">Error enumerators, when shared, allows program call to handle issues.  <a href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232">More...</a><br /></td></tr>
 <tr class="separator:a09c25ad25f326a930ae42ace60b70232"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25bf912d97e66dcc654c453f7b4209f0"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common__types_8h.html#a25bf912d97e66dcc654c453f7b4209f0">encryption_mode_e</a> { <a class="el" href="common__types_8h.html#a25bf912d97e66dcc654c453f7b4209f0af57013b41db7e174eeeea73dc45fa0b7">ENCRYPT_MODE_E</a>, 
 <a class="el" href="common__types_8h.html#a25bf912d97e66dcc654c453f7b4209f0a48801eb1ce478457e73bd7694e6423fc">DECRYPT_MODE_E</a>, 
@@ -206,7 +229,63 @@ Enumerations</h2></td></tr>
 
 <p>To enable debug prints, compile the project by adding the CEASAR_DEBUG_ON compilation flag. </p>
 
-<p class="definition">Definition at line <a class="el" href="common__types_8h_source.html#l00022">22</a> of file <a class="el" href="common__types_8h_source.html">common_types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="common__types_8h_source.html#l00023">23</a> of file <a class="el" href="common__types_8h_source.html">common_types.h</a>.</p>
+
+</div>
+</div>
+<a id="a7f28dc96228653e7742a5687d23e9239"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f28dc96228653e7742a5687d23e9239">&#9670;&nbsp;</a></span>CHECK_AND_BREAK</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CHECK_AND_BREAK</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">_status_</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">        <span class="keywordflow">if</span>(<a class="code" href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232aadeb5032c03491611646c1c64f7c0e0c">ERROR_OK</a> != _status_)                                     \</div>
+<div class="line">        {                                                            \</div>
+<div class="line">            break;                                                   \</div>
+<div class="line">        }</div>
+</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="common__types_8h_source.html#l00033">33</a> of file <a class="el" href="common__types_8h_source.html">common_types.h</a>.</p>
+
+</div>
+</div>
+<a id="a8ff10b75745acf0409de91ac1db60a20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ff10b75745acf0409de91ac1db60a20">&#9670;&nbsp;</a></span>DEBUG_LEVEL_FIVE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DEBUG_LEVEL_FIVE&#160;&#160;&#160;(5)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="common__types_8h_source.html#l00059">59</a> of file <a class="el" href="common__types_8h_source.html">common_types.h</a>.</p>
+
+</div>
+</div>
+<a id="a8f32c0bbc5b75d29d67a30d8315bf5ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f32c0bbc5b75d29d67a30d8315bf5ed">&#9670;&nbsp;</a></span>DEBUG_LEVEL_FOUR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DEBUG_LEVEL_FOUR&#160;&#160;&#160;(4)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="common__types_8h_source.html#l00058">58</a> of file <a class="el" href="common__types_8h_source.html">common_types.h</a>.</p>
 
 </div>
 </div>
@@ -222,7 +301,7 @@ Enumerations</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="common__types_8h_source.html#l00051">51</a> of file <a class="el" href="common__types_8h_source.html">common_types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="common__types_8h_source.html#l00060">60</a> of file <a class="el" href="common__types_8h_source.html">common_types.h</a>.</p>
 
 </div>
 </div>
@@ -238,7 +317,7 @@ Enumerations</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="common__types_8h_source.html#l00048">48</a> of file <a class="el" href="common__types_8h_source.html">common_types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="common__types_8h_source.html#l00054">54</a> of file <a class="el" href="common__types_8h_source.html">common_types.h</a>.</p>
 
 </div>
 </div>
@@ -254,7 +333,23 @@ Enumerations</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="common__types_8h_source.html#l00049">49</a> of file <a class="el" href="common__types_8h_source.html">common_types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="common__types_8h_source.html#l00055">55</a> of file <a class="el" href="common__types_8h_source.html">common_types.h</a>.</p>
+
+</div>
+</div>
+<a id="aff81c997c9611c2854fd1a9d5bba0c3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff81c997c9611c2854fd1a9d5bba0c3f">&#9670;&nbsp;</a></span>DEBUG_LEVEL_THREE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DEBUG_LEVEL_THREE&#160;&#160;&#160;(3)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="common__types_8h_source.html#l00057">57</a> of file <a class="el" href="common__types_8h_source.html">common_types.h</a>.</p>
 
 </div>
 </div>
@@ -270,7 +365,7 @@ Enumerations</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="common__types_8h_source.html#l00050">50</a> of file <a class="el" href="common__types_8h_source.html">common_types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="common__types_8h_source.html#l00056">56</a> of file <a class="el" href="common__types_8h_source.html">common_types.h</a>.</p>
 
 </div>
 </div>
@@ -307,7 +402,7 @@ Enumerations</h2></td></tr>
 <div class="line">            }                                                                \</div>
 <div class="line">        }</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="common__types_8h_source.html#l00055">55</a> of file <a class="el" href="common__types_8h_source.html">common_types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="common__types_8h_source.html#l00064">64</a> of file <a class="el" href="common__types_8h_source.html">common_types.h</a>.</p>
 
 </div>
 </div>
@@ -331,7 +426,7 @@ Enumerations</h2></td></tr>
 <div class="line">            DEBUG_PRINT(<a class="code" href="common__types_8h.html#a6c45057238d860cdc3693e9802b95ad6">DEBUG_LEVEL_TWO</a>, __VA_ARGS__ );                      \</div>
 <div class="line">        }</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="common__types_8h_source.html#l00064">64</a> of file <a class="el" href="common__types_8h_source.html">common_types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="common__types_8h_source.html#l00073">73</a> of file <a class="el" href="common__types_8h_source.html">common_types.h</a>.</p>
 
 </div>
 </div>
@@ -353,7 +448,7 @@ Enumerations</h2></td></tr>
 <div class="line">            DEBUG_PRINT(<a class="code" href="common__types_8h.html#adab028ad33c1ace2ad2bc51c6aad0ac4">DEBUG_LEVEL_ONE</a>, <span class="stringliteral">&quot;Ended \n&quot;</span> );                       \</div>
 <div class="line">        }</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="common__types_8h_source.html#l00075">75</a> of file <a class="el" href="common__types_8h_source.html">common_types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="common__types_8h_source.html#l00084">84</a> of file <a class="el" href="common__types_8h_source.html">common_types.h</a>.</p>
 
 </div>
 </div>
@@ -375,7 +470,7 @@ Enumerations</h2></td></tr>
 <div class="line">            DEBUG_PRINT(<a class="code" href="common__types_8h.html#adab028ad33c1ace2ad2bc51c6aad0ac4">DEBUG_LEVEL_ONE</a>, <span class="stringliteral">&quot;Started \n&quot;</span> );                     \</div>
 <div class="line">        }</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="common__types_8h_source.html#l00070">70</a> of file <a class="el" href="common__types_8h_source.html">common_types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="common__types_8h_source.html#l00079">79</a> of file <a class="el" href="common__types_8h_source.html">common_types.h</a>.</p>
 
 </div>
 </div>
@@ -386,14 +481,14 @@ Enumerations</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define DEBUG_VERBOSITY_LEVEL&#160;&#160;&#160;(1)</td>
+          <td class="memname">#define DEBUG_VERBOSITY_LEVEL&#160;&#160;&#160;(10)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Debug Levels Description: To enable debug printing, with easier toggle on/off of specific verbosity levels. Each DEBUG_PRINT statment will be assosicated with a specific verbosity level. A global DEBUG_VERBOSITY_LEVEL will define how many prints of logs we wish to see. The higher it is define, the more prints should be shown. To fully utilize this mechanism, each print statement should think out the how needed are those prints. For example, <a class="el" href="common__types_8h.html#ad4ed3d5d742c56a417076ab5e1a5dd29">DEBUG_PRINT_FUNCTION_START()</a> assigns level one, because it is useally usefull to have a function start and end prints - lets you know a specific function was called and executed. As a rule of thumb, if the print statment is located in a "deep" or long loops, it is wise to assign a larger debug level, so it will show up on when needed to avoid clutter. </p>
 
-<p class="definition">Definition at line <a class="el" href="common__types_8h_source.html#l00046">46</a> of file <a class="el" href="common__types_8h_source.html">common_types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="common__types_8h_source.html#l00052">52</a> of file <a class="el" href="common__types_8h_source.html">common_types.h</a>.</p>
 
 </div>
 </div>
@@ -416,7 +511,7 @@ Enumerations</h2></td></tr>
 <div class="line">        printf(<span class="stringliteral">&quot;ERROR!  Msg : &quot;</span>);                                    \</div>
 <div class="line">        printf(__VA_ARGS__)</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="common__types_8h_source.html#l00027">27</a> of file <a class="el" href="common__types_8h_source.html">common_types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="common__types_8h_source.html#l00028">28</a> of file <a class="el" href="common__types_8h_source.html">common_types.h</a>.</p>
 
 </div>
 </div>
@@ -465,6 +560,8 @@ Enumerations</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Error enumerators, when shared, allows program call to handle issues. </p>
+
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
@@ -487,12 +584,12 @@ Enumerations</h2></td></tr>
 <tr><td class="fieldname"><a id="a25bf912d97e66dcc654c453f7b4209f0acd6d4b3b9aeb1d9a71e33e154c9484f7"></a>INVALID_ENCRYPTION_MODE_E&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="common__types_8h_source.html#l00107">107</a> of file <a class="el" href="common__types_8h_source.html">common_types.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;{</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <a class="code" href="common__types_8h.html#a25bf912d97e66dcc654c453f7b4209f0af57013b41db7e174eeeea73dc45fa0b7">ENCRYPT_MODE_E</a>,</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    <a class="code" href="common__types_8h.html#a25bf912d97e66dcc654c453f7b4209f0a48801eb1ce478457e73bd7694e6423fc">DECRYPT_MODE_E</a>,</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    <a class="code" href="common__types_8h.html#a25bf912d97e66dcc654c453f7b4209f0acd6d4b3b9aeb1d9a71e33e154c9484f7">INVALID_ENCRYPTION_MODE_E</a> = 0xFF,</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;}<a class="code" href="common__types_8h.html#a25bf912d97e66dcc654c453f7b4209f0">encryption_mode_e</a>;</div>
+<p class="definition">Definition at line <a class="el" href="common__types_8h_source.html#l00133">133</a> of file <a class="el" href="common__types_8h_source.html">common_types.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;{</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    <a class="code" href="common__types_8h.html#a25bf912d97e66dcc654c453f7b4209f0af57013b41db7e174eeeea73dc45fa0b7">ENCRYPT_MODE_E</a>,</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    <a class="code" href="common__types_8h.html#a25bf912d97e66dcc654c453f7b4209f0a48801eb1ce478457e73bd7694e6423fc">DECRYPT_MODE_E</a>,</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    <a class="code" href="common__types_8h.html#a25bf912d97e66dcc654c453f7b4209f0acd6d4b3b9aeb1d9a71e33e154c9484f7">INVALID_ENCRYPTION_MODE_E</a> = 0xFF,</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;}<a class="code" href="common__types_8h.html#a25bf912d97e66dcc654c453f7b4209f0">encryption_mode_e</a>;</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -507,6 +604,8 @@ Enumerations</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Error enumerators, when shared, allows program call to handle issues. </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a09c25ad25f326a930ae42ace60b70232aadeb5032c03491611646c1c64f7c0e0c"></a>ERROR_OK&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a09c25ad25f326a930ae42ace60b70232abe1fccf9568d1409c0d345d822681d59"></a>ERROR_FATAL_ERROR_E&#160;</td><td class="fielddoc"></td></tr>
@@ -515,43 +614,76 @@ Enumerations</h2></td></tr>
 <tr><td class="fieldname"><a id="a09c25ad25f326a930ae42ace60b70232a827808fdf7bc5c0816b51896e57e4de1"></a>ERROR_INVALID_ENCRYPTION_FLAG_E&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a09c25ad25f326a930ae42ace60b70232a7d1cfdfa810737b75e276c9a134e1344"></a>ERROR_INVALID_ENCRYPTION_KEY_E&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a09c25ad25f326a930ae42ace60b70232a7079daf675d10aa09feda328c3f42774"></a>ERROR_INVALID_THREAD_NUM_E&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a09c25ad25f326a930ae42ace60b70232af8f8c6f571094d5d77208303beef01f2"></a>ERROR_FAILED_TO_OPEN_INPUT_FILE_E&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a09c25ad25f326a930ae42ace60b70232a643e3477c71bc2af6a88663e86bc0bbf"></a>ERROR_FAILED_TO_OPEN_OUTPUT_FILE_E&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a09c25ad25f326a930ae42ace60b70232ae3d4b1aa0f4ac7980570d28113deaddc"></a>ERROR_FAILED_TO_FIND_INPUT_FILE_END_OF_FILE_E&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a09c25ad25f326a930ae42ace60b70232a9c19d6aa948a1a343a5d130bf795adbd"></a>ERROR_INPUT_FILE_IS_EMPTY_E&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a09c25ad25f326a930ae42ace60b70232a5d4ba42d87808f25b59afab9d1853578"></a>ERROR_FAILED_TO_READ_FILE_E&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a09c25ad25f326a930ae42ace60b70232ac7b0be583fdf712dcbba3bbed1cc3f77"></a>ERROR_WRONG_START_POSITION_E&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a09c25ad25f326a930ae42ace60b70232a78aaa78cf4b9bb4b770f85ab5575e97e"></a>ERROR_FSEEK_FAILED_E&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a09c25ad25f326a930ae42ace60b70232a3d5463a5da2745117165b23a453a79c4"></a>ERROR_FAILED_WRITE_TO_OUTPUT_FILE_E&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a09c25ad25f326a930ae42ace60b70232a5ffa8953d8668e40c26f99ba884847b8"></a>ERROR_FAILED_TO_ALLOCATE_MEMORY_E&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a09c25ad25f326a930ae42ace60b70232a2c94b966c744d2ac7c5954e07ee61c47"></a>ERROR_FAILED_TO_CREATE_THREAD_E&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="common__types_8h_source.html#l00092">92</a> of file <a class="el" href="common__types_8h_source.html">common_types.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;{</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <a class="code" href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232aadeb5032c03491611646c1c64f7c0e0c">ERROR_OK</a> = 0,</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <a class="code" href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232abe1fccf9568d1409c0d345d822681d59">ERROR_FATAL_ERROR_E</a>,</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <a class="code" href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a0b228f1b329d42635ff838109be43b6a">ERROR_INVALID_PARAM_E</a>,</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <a class="code" href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a9ec7acfb9ee4014a6620d9205e65b01e">ERROR_INVALID_NUMBER_OF_PARAMETERS_E</a>,</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <a class="code" href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a827808fdf7bc5c0816b51896e57e4de1">ERROR_INVALID_ENCRYPTION_FLAG_E</a>,</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <a class="code" href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a7d1cfdfa810737b75e276c9a134e1344">ERROR_INVALID_ENCRYPTION_KEY_E</a>,</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <a class="code" href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a7079daf675d10aa09feda328c3f42774">ERROR_INVALID_THREAD_NUM_E</a>,</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;}<a class="code" href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232">error_e</a>;</div>
+<p class="definition">Definition at line <a class="el" href="common__types_8h_source.html#l00105">105</a> of file <a class="el" href="common__types_8h_source.html">common_types.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;{</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <a class="code" href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232aadeb5032c03491611646c1c64f7c0e0c">ERROR_OK</a> = 0,</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    <a class="code" href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232abe1fccf9568d1409c0d345d822681d59">ERROR_FATAL_ERROR_E</a>,</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <a class="code" href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a0b228f1b329d42635ff838109be43b6a">ERROR_INVALID_PARAM_E</a>,</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    <a class="code" href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a9ec7acfb9ee4014a6620d9205e65b01e">ERROR_INVALID_NUMBER_OF_PARAMETERS_E</a>,</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    <a class="code" href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a827808fdf7bc5c0816b51896e57e4de1">ERROR_INVALID_ENCRYPTION_FLAG_E</a>,</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    <a class="code" href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a7d1cfdfa810737b75e276c9a134e1344">ERROR_INVALID_ENCRYPTION_KEY_E</a>,</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    <a class="code" href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a7079daf675d10aa09feda328c3f42774">ERROR_INVALID_THREAD_NUM_E</a>,</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    </div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    <a class="code" href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232af8f8c6f571094d5d77208303beef01f2">ERROR_FAILED_TO_OPEN_INPUT_FILE_E</a>,</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <a class="code" href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a643e3477c71bc2af6a88663e86bc0bbf">ERROR_FAILED_TO_OPEN_OUTPUT_FILE_E</a>,</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <a class="code" href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232ae3d4b1aa0f4ac7980570d28113deaddc">ERROR_FAILED_TO_FIND_INPUT_FILE_END_OF_FILE_E</a>,</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <a class="code" href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a9c19d6aa948a1a343a5d130bf795adbd">ERROR_INPUT_FILE_IS_EMPTY_E</a>,</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <a class="code" href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a5d4ba42d87808f25b59afab9d1853578">ERROR_FAILED_TO_READ_FILE_E</a>,</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <a class="code" href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232ac7b0be583fdf712dcbba3bbed1cc3f77">ERROR_WRONG_START_POSITION_E</a>,</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    <a class="code" href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a78aaa78cf4b9bb4b770f85ab5575e97e">ERROR_FSEEK_FAILED_E</a>,</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    <a class="code" href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a3d5463a5da2745117165b23a453a79c4">ERROR_FAILED_WRITE_TO_OUTPUT_FILE_E</a>,</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160; </div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <a class="code" href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a5ffa8953d8668e40c26f99ba884847b8">ERROR_FAILED_TO_ALLOCATE_MEMORY_E</a>,</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    <a class="code" href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a2c94b966c744d2ac7c5954e07ee61c47">ERROR_FAILED_TO_CREATE_THREAD_E</a>,</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160; </div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;}<a class="code" href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232">error_e</a>;</div>
 </div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="acommon__types_8h_html_a09c25ad25f326a930ae42ace60b70232a7d1cfdfa810737b75e276c9a134e1344"><div class="ttname"><a href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a7d1cfdfa810737b75e276c9a134e1344">ERROR_INVALID_ENCRYPTION_KEY_E</a></div><div class="ttdeci">@ ERROR_INVALID_ENCRYPTION_KEY_E</div><div class="ttdef"><b>Definition:</b> <a href="common__types_8h_source.html#l00099">common_types.h:99</a></div></div>
-<div class="ttc" id="acommon__types_8h_html_a25bf912d97e66dcc654c453f7b4209f0af57013b41db7e174eeeea73dc45fa0b7"><div class="ttname"><a href="common__types_8h.html#a25bf912d97e66dcc654c453f7b4209f0af57013b41db7e174eeeea73dc45fa0b7">ENCRYPT_MODE_E</a></div><div class="ttdeci">@ ENCRYPT_MODE_E</div><div class="ttdef"><b>Definition:</b> <a href="common__types_8h_source.html#l00109">common_types.h:109</a></div></div>
-<div class="ttc" id="acommon__types_8h_html_a25bf912d97e66dcc654c453f7b4209f0acd6d4b3b9aeb1d9a71e33e154c9484f7"><div class="ttname"><a href="common__types_8h.html#a25bf912d97e66dcc654c453f7b4209f0acd6d4b3b9aeb1d9a71e33e154c9484f7">INVALID_ENCRYPTION_MODE_E</a></div><div class="ttdeci">@ INVALID_ENCRYPTION_MODE_E</div><div class="ttdef"><b>Definition:</b> <a href="common__types_8h_source.html#l00111">common_types.h:111</a></div></div>
-<div class="ttc" id="acommon__types_8h_html_a59779b469005fb83465d9126ac5fc9a4"><div class="ttname"><a href="common__types_8h.html#a59779b469005fb83465d9126ac5fc9a4">DEBUG_VERBOSITY_LEVEL</a></div><div class="ttdeci">#define DEBUG_VERBOSITY_LEVEL</div><div class="ttdoc">Debug Levels Description: To enable debug printing, with easier toggle on/off of specific verbosity l...</div><div class="ttdef"><b>Definition:</b> <a href="common__types_8h_source.html#l00046">common_types.h:46</a></div></div>
-<div class="ttc" id="acommon__types_8h_html_a09c25ad25f326a930ae42ace60b70232a7079daf675d10aa09feda328c3f42774"><div class="ttname"><a href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a7079daf675d10aa09feda328c3f42774">ERROR_INVALID_THREAD_NUM_E</a></div><div class="ttdeci">@ ERROR_INVALID_THREAD_NUM_E</div><div class="ttdef"><b>Definition:</b> <a href="common__types_8h_source.html#l00100">common_types.h:100</a></div></div>
-<div class="ttc" id="acommon__types_8h_html_a09c25ad25f326a930ae42ace60b70232a0b228f1b329d42635ff838109be43b6a"><div class="ttname"><a href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a0b228f1b329d42635ff838109be43b6a">ERROR_INVALID_PARAM_E</a></div><div class="ttdeci">@ ERROR_INVALID_PARAM_E</div><div class="ttdef"><b>Definition:</b> <a href="common__types_8h_source.html#l00096">common_types.h:96</a></div></div>
-<div class="ttc" id="acommon__types_8h_html_a09c25ad25f326a930ae42ace60b70232"><div class="ttname"><a href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232">error_e</a></div><div class="ttdeci">error_e</div><div class="ttdef"><b>Definition:</b> <a href="common__types_8h_source.html#l00092">common_types.h:93</a></div></div>
-<div class="ttc" id="acommon__types_8h_html_a6c45057238d860cdc3693e9802b95ad6"><div class="ttname"><a href="common__types_8h.html#a6c45057238d860cdc3693e9802b95ad6">DEBUG_LEVEL_TWO</a></div><div class="ttdeci">#define DEBUG_LEVEL_TWO</div><div class="ttdef"><b>Definition:</b> <a href="common__types_8h_source.html#l00050">common_types.h:50</a></div></div>
-<div class="ttc" id="acommon__types_8h_html_a25bf912d97e66dcc654c453f7b4209f0"><div class="ttname"><a href="common__types_8h.html#a25bf912d97e66dcc654c453f7b4209f0">encryption_mode_e</a></div><div class="ttdeci">encryption_mode_e</div><div class="ttdoc">Indicates wether to use to encrypt or decrypt.</div><div class="ttdef"><b>Definition:</b> <a href="common__types_8h_source.html#l00107">common_types.h:108</a></div></div>
-<div class="ttc" id="acommon__types_8h_html_a09c25ad25f326a930ae42ace60b70232aadeb5032c03491611646c1c64f7c0e0c"><div class="ttname"><a href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232aadeb5032c03491611646c1c64f7c0e0c">ERROR_OK</a></div><div class="ttdeci">@ ERROR_OK</div><div class="ttdef"><b>Definition:</b> <a href="common__types_8h_source.html#l00094">common_types.h:94</a></div></div>
-<div class="ttc" id="acommon__types_8h_html_adab028ad33c1ace2ad2bc51c6aad0ac4"><div class="ttname"><a href="common__types_8h.html#adab028ad33c1ace2ad2bc51c6aad0ac4">DEBUG_LEVEL_ONE</a></div><div class="ttdeci">#define DEBUG_LEVEL_ONE</div><div class="ttdef"><b>Definition:</b> <a href="common__types_8h_source.html#l00049">common_types.h:49</a></div></div>
-<div class="ttc" id="acommon__types_8h_html_a25bf912d97e66dcc654c453f7b4209f0a48801eb1ce478457e73bd7694e6423fc"><div class="ttname"><a href="common__types_8h.html#a25bf912d97e66dcc654c453f7b4209f0a48801eb1ce478457e73bd7694e6423fc">DECRYPT_MODE_E</a></div><div class="ttdeci">@ DECRYPT_MODE_E</div><div class="ttdef"><b>Definition:</b> <a href="common__types_8h_source.html#l00110">common_types.h:110</a></div></div>
-<div class="ttc" id="acommon__types_8h_html_a09c25ad25f326a930ae42ace60b70232abe1fccf9568d1409c0d345d822681d59"><div class="ttname"><a href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232abe1fccf9568d1409c0d345d822681d59">ERROR_FATAL_ERROR_E</a></div><div class="ttdeci">@ ERROR_FATAL_ERROR_E</div><div class="ttdef"><b>Definition:</b> <a href="common__types_8h_source.html#l00095">common_types.h:95</a></div></div>
-<div class="ttc" id="acommon__types_8h_html_a09c25ad25f326a930ae42ace60b70232a827808fdf7bc5c0816b51896e57e4de1"><div class="ttname"><a href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a827808fdf7bc5c0816b51896e57e4de1">ERROR_INVALID_ENCRYPTION_FLAG_E</a></div><div class="ttdeci">@ ERROR_INVALID_ENCRYPTION_FLAG_E</div><div class="ttdef"><b>Definition:</b> <a href="common__types_8h_source.html#l00098">common_types.h:98</a></div></div>
-<div class="ttc" id="acommon__types_8h_html_a09c25ad25f326a930ae42ace60b70232a9ec7acfb9ee4014a6620d9205e65b01e"><div class="ttname"><a href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a9ec7acfb9ee4014a6620d9205e65b01e">ERROR_INVALID_NUMBER_OF_PARAMETERS_E</a></div><div class="ttdeci">@ ERROR_INVALID_NUMBER_OF_PARAMETERS_E</div><div class="ttdef"><b>Definition:</b> <a href="common__types_8h_source.html#l00097">common_types.h:97</a></div></div>
+<div class="ttc" id="acommon__types_8h_html_a09c25ad25f326a930ae42ace60b70232a5d4ba42d87808f25b59afab9d1853578"><div class="ttname"><a href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a5d4ba42d87808f25b59afab9d1853578">ERROR_FAILED_TO_READ_FILE_E</a></div><div class="ttdeci">@ ERROR_FAILED_TO_READ_FILE_E</div><div class="ttdef"><b>Definition:</b> <a href="common__types_8h_source.html#l00119">common_types.h:119</a></div></div>
+<div class="ttc" id="acommon__types_8h_html_a09c25ad25f326a930ae42ace60b70232af8f8c6f571094d5d77208303beef01f2"><div class="ttname"><a href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232af8f8c6f571094d5d77208303beef01f2">ERROR_FAILED_TO_OPEN_INPUT_FILE_E</a></div><div class="ttdeci">@ ERROR_FAILED_TO_OPEN_INPUT_FILE_E</div><div class="ttdef"><b>Definition:</b> <a href="common__types_8h_source.html#l00115">common_types.h:115</a></div></div>
+<div class="ttc" id="acommon__types_8h_html_a09c25ad25f326a930ae42ace60b70232a9c19d6aa948a1a343a5d130bf795adbd"><div class="ttname"><a href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a9c19d6aa948a1a343a5d130bf795adbd">ERROR_INPUT_FILE_IS_EMPTY_E</a></div><div class="ttdeci">@ ERROR_INPUT_FILE_IS_EMPTY_E</div><div class="ttdef"><b>Definition:</b> <a href="common__types_8h_source.html#l00118">common_types.h:118</a></div></div>
+<div class="ttc" id="acommon__types_8h_html_a09c25ad25f326a930ae42ace60b70232ae3d4b1aa0f4ac7980570d28113deaddc"><div class="ttname"><a href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232ae3d4b1aa0f4ac7980570d28113deaddc">ERROR_FAILED_TO_FIND_INPUT_FILE_END_OF_FILE_E</a></div><div class="ttdeci">@ ERROR_FAILED_TO_FIND_INPUT_FILE_END_OF_FILE_E</div><div class="ttdef"><b>Definition:</b> <a href="common__types_8h_source.html#l00117">common_types.h:117</a></div></div>
+<div class="ttc" id="acommon__types_8h_html_a09c25ad25f326a930ae42ace60b70232a7d1cfdfa810737b75e276c9a134e1344"><div class="ttname"><a href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a7d1cfdfa810737b75e276c9a134e1344">ERROR_INVALID_ENCRYPTION_KEY_E</a></div><div class="ttdeci">@ ERROR_INVALID_ENCRYPTION_KEY_E</div><div class="ttdef"><b>Definition:</b> <a href="common__types_8h_source.html#l00112">common_types.h:112</a></div></div>
+<div class="ttc" id="acommon__types_8h_html_a09c25ad25f326a930ae42ace60b70232a643e3477c71bc2af6a88663e86bc0bbf"><div class="ttname"><a href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a643e3477c71bc2af6a88663e86bc0bbf">ERROR_FAILED_TO_OPEN_OUTPUT_FILE_E</a></div><div class="ttdeci">@ ERROR_FAILED_TO_OPEN_OUTPUT_FILE_E</div><div class="ttdef"><b>Definition:</b> <a href="common__types_8h_source.html#l00116">common_types.h:116</a></div></div>
+<div class="ttc" id="acommon__types_8h_html_a25bf912d97e66dcc654c453f7b4209f0af57013b41db7e174eeeea73dc45fa0b7"><div class="ttname"><a href="common__types_8h.html#a25bf912d97e66dcc654c453f7b4209f0af57013b41db7e174eeeea73dc45fa0b7">ENCRYPT_MODE_E</a></div><div class="ttdeci">@ ENCRYPT_MODE_E</div><div class="ttdef"><b>Definition:</b> <a href="common__types_8h_source.html#l00135">common_types.h:135</a></div></div>
+<div class="ttc" id="acommon__types_8h_html_a25bf912d97e66dcc654c453f7b4209f0acd6d4b3b9aeb1d9a71e33e154c9484f7"><div class="ttname"><a href="common__types_8h.html#a25bf912d97e66dcc654c453f7b4209f0acd6d4b3b9aeb1d9a71e33e154c9484f7">INVALID_ENCRYPTION_MODE_E</a></div><div class="ttdeci">@ INVALID_ENCRYPTION_MODE_E</div><div class="ttdef"><b>Definition:</b> <a href="common__types_8h_source.html#l00137">common_types.h:137</a></div></div>
+<div class="ttc" id="acommon__types_8h_html_a59779b469005fb83465d9126ac5fc9a4"><div class="ttname"><a href="common__types_8h.html#a59779b469005fb83465d9126ac5fc9a4">DEBUG_VERBOSITY_LEVEL</a></div><div class="ttdeci">#define DEBUG_VERBOSITY_LEVEL</div><div class="ttdoc">Debug Levels Description: To enable debug printing, with easier toggle on/off of specific verbosity l...</div><div class="ttdef"><b>Definition:</b> <a href="common__types_8h_source.html#l00052">common_types.h:52</a></div></div>
+<div class="ttc" id="acommon__types_8h_html_a09c25ad25f326a930ae42ace60b70232a7079daf675d10aa09feda328c3f42774"><div class="ttname"><a href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a7079daf675d10aa09feda328c3f42774">ERROR_INVALID_THREAD_NUM_E</a></div><div class="ttdeci">@ ERROR_INVALID_THREAD_NUM_E</div><div class="ttdef"><b>Definition:</b> <a href="common__types_8h_source.html#l00113">common_types.h:113</a></div></div>
+<div class="ttc" id="acommon__types_8h_html_a09c25ad25f326a930ae42ace60b70232a2c94b966c744d2ac7c5954e07ee61c47"><div class="ttname"><a href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a2c94b966c744d2ac7c5954e07ee61c47">ERROR_FAILED_TO_CREATE_THREAD_E</a></div><div class="ttdeci">@ ERROR_FAILED_TO_CREATE_THREAD_E</div><div class="ttdef"><b>Definition:</b> <a href="common__types_8h_source.html#l00125">common_types.h:125</a></div></div>
+<div class="ttc" id="acommon__types_8h_html_a09c25ad25f326a930ae42ace60b70232a5ffa8953d8668e40c26f99ba884847b8"><div class="ttname"><a href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a5ffa8953d8668e40c26f99ba884847b8">ERROR_FAILED_TO_ALLOCATE_MEMORY_E</a></div><div class="ttdeci">@ ERROR_FAILED_TO_ALLOCATE_MEMORY_E</div><div class="ttdef"><b>Definition:</b> <a href="common__types_8h_source.html#l00124">common_types.h:124</a></div></div>
+<div class="ttc" id="acommon__types_8h_html_a09c25ad25f326a930ae42ace60b70232a0b228f1b329d42635ff838109be43b6a"><div class="ttname"><a href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a0b228f1b329d42635ff838109be43b6a">ERROR_INVALID_PARAM_E</a></div><div class="ttdeci">@ ERROR_INVALID_PARAM_E</div><div class="ttdef"><b>Definition:</b> <a href="common__types_8h_source.html#l00109">common_types.h:109</a></div></div>
+<div class="ttc" id="acommon__types_8h_html_a09c25ad25f326a930ae42ace60b70232"><div class="ttname"><a href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232">error_e</a></div><div class="ttdeci">error_e</div><div class="ttdoc">Error enumerators, when shared, allows program call to handle issues.</div><div class="ttdef"><b>Definition:</b> <a href="common__types_8h_source.html#l00105">common_types.h:106</a></div></div>
+<div class="ttc" id="acommon__types_8h_html_a09c25ad25f326a930ae42ace60b70232a3d5463a5da2745117165b23a453a79c4"><div class="ttname"><a href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a3d5463a5da2745117165b23a453a79c4">ERROR_FAILED_WRITE_TO_OUTPUT_FILE_E</a></div><div class="ttdeci">@ ERROR_FAILED_WRITE_TO_OUTPUT_FILE_E</div><div class="ttdef"><b>Definition:</b> <a href="common__types_8h_source.html#l00122">common_types.h:122</a></div></div>
+<div class="ttc" id="acommon__types_8h_html_a6c45057238d860cdc3693e9802b95ad6"><div class="ttname"><a href="common__types_8h.html#a6c45057238d860cdc3693e9802b95ad6">DEBUG_LEVEL_TWO</a></div><div class="ttdeci">#define DEBUG_LEVEL_TWO</div><div class="ttdef"><b>Definition:</b> <a href="common__types_8h_source.html#l00056">common_types.h:56</a></div></div>
+<div class="ttc" id="acommon__types_8h_html_a25bf912d97e66dcc654c453f7b4209f0"><div class="ttname"><a href="common__types_8h.html#a25bf912d97e66dcc654c453f7b4209f0">encryption_mode_e</a></div><div class="ttdeci">encryption_mode_e</div><div class="ttdoc">Indicates wether to use to encrypt or decrypt.</div><div class="ttdef"><b>Definition:</b> <a href="common__types_8h_source.html#l00133">common_types.h:134</a></div></div>
+<div class="ttc" id="acommon__types_8h_html_a09c25ad25f326a930ae42ace60b70232aadeb5032c03491611646c1c64f7c0e0c"><div class="ttname"><a href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232aadeb5032c03491611646c1c64f7c0e0c">ERROR_OK</a></div><div class="ttdeci">@ ERROR_OK</div><div class="ttdef"><b>Definition:</b> <a href="common__types_8h_source.html#l00107">common_types.h:107</a></div></div>
+<div class="ttc" id="acommon__types_8h_html_a09c25ad25f326a930ae42ace60b70232ac7b0be583fdf712dcbba3bbed1cc3f77"><div class="ttname"><a href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232ac7b0be583fdf712dcbba3bbed1cc3f77">ERROR_WRONG_START_POSITION_E</a></div><div class="ttdeci">@ ERROR_WRONG_START_POSITION_E</div><div class="ttdef"><b>Definition:</b> <a href="common__types_8h_source.html#l00120">common_types.h:120</a></div></div>
+<div class="ttc" id="acommon__types_8h_html_adab028ad33c1ace2ad2bc51c6aad0ac4"><div class="ttname"><a href="common__types_8h.html#adab028ad33c1ace2ad2bc51c6aad0ac4">DEBUG_LEVEL_ONE</a></div><div class="ttdeci">#define DEBUG_LEVEL_ONE</div><div class="ttdef"><b>Definition:</b> <a href="common__types_8h_source.html#l00055">common_types.h:55</a></div></div>
+<div class="ttc" id="acommon__types_8h_html_a25bf912d97e66dcc654c453f7b4209f0a48801eb1ce478457e73bd7694e6423fc"><div class="ttname"><a href="common__types_8h.html#a25bf912d97e66dcc654c453f7b4209f0a48801eb1ce478457e73bd7694e6423fc">DECRYPT_MODE_E</a></div><div class="ttdeci">@ DECRYPT_MODE_E</div><div class="ttdef"><b>Definition:</b> <a href="common__types_8h_source.html#l00136">common_types.h:136</a></div></div>
+<div class="ttc" id="acommon__types_8h_html_a09c25ad25f326a930ae42ace60b70232abe1fccf9568d1409c0d345d822681d59"><div class="ttname"><a href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232abe1fccf9568d1409c0d345d822681d59">ERROR_FATAL_ERROR_E</a></div><div class="ttdeci">@ ERROR_FATAL_ERROR_E</div><div class="ttdef"><b>Definition:</b> <a href="common__types_8h_source.html#l00108">common_types.h:108</a></div></div>
+<div class="ttc" id="acommon__types_8h_html_a09c25ad25f326a930ae42ace60b70232a827808fdf7bc5c0816b51896e57e4de1"><div class="ttname"><a href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a827808fdf7bc5c0816b51896e57e4de1">ERROR_INVALID_ENCRYPTION_FLAG_E</a></div><div class="ttdeci">@ ERROR_INVALID_ENCRYPTION_FLAG_E</div><div class="ttdef"><b>Definition:</b> <a href="common__types_8h_source.html#l00111">common_types.h:111</a></div></div>
+<div class="ttc" id="acommon__types_8h_html_a09c25ad25f326a930ae42ace60b70232a9ec7acfb9ee4014a6620d9205e65b01e"><div class="ttname"><a href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a9ec7acfb9ee4014a6620d9205e65b01e">ERROR_INVALID_NUMBER_OF_PARAMETERS_E</a></div><div class="ttdeci">@ ERROR_INVALID_NUMBER_OF_PARAMETERS_E</div><div class="ttdef"><b>Definition:</b> <a href="common__types_8h_source.html#l00110">common_types.h:110</a></div></div>
+<div class="ttc" id="acommon__types_8h_html_a09c25ad25f326a930ae42ace60b70232a78aaa78cf4b9bb4b770f85ab5575e97e"><div class="ttname"><a href="common__types_8h.html#a09c25ad25f326a930ae42ace60b70232a78aaa78cf4b9bb4b770f85ab5575e97e">ERROR_FSEEK_FAILED_E</a></div><div class="ttdeci">@ ERROR_FSEEK_FAILED_E</div><div class="ttdef"><b>Definition:</b> <a href="common__types_8h_source.html#l00121">common_types.h:121</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_463333865144b9ef9fbaa6e9101d07cf.html">Ex2</a></li><li class="navelem"><a class="el" href="dir_b2fb477af436c3ba25b9a9f97a39da58.html">Ceasar</a></li><li class="navelem"><a class="el" href="common__types_8h.html">common_types.h</a></li>
-    <li class="footer">Generated on Sun Nov 15 2020 01:39:07 for EX2 by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
+    <li class="footer">Generated on Sun Nov 29 2020 12:51:48 for EX2 by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
   </ul>
 </div>
 </body>

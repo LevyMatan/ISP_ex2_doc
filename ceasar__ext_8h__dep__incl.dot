@@ -6,7 +6,7 @@ digraph "ceasar_ext.h"
   node [fontname="Helvetica",fontsize="10",shape=record];
   Node1 [label="ceasar_ext.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="All exposed functions and types to be used by someone who wants to call the Ceasar lib/program."];
   Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node2 [label="ceasar.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ceasar_8h.html",tooltip=" "];
+  Node2 [label="ceasar.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ceasar_8h.html",tooltip="Delartion of core function to construct Ceasar program from."];
   Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node3 [label="ceasar.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ceasar_8c.html",tooltip=" "];
+  Node3 [label="ceasar.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ceasar_8c.html",tooltip="Main program file. The Ceasar program will decrypt an input file."];
 }

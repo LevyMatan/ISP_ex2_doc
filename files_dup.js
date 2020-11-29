@@ -6,5 +6,7 @@ var files_dup =
     [ "command_line_parsing.c", "command__line__parsing_8c.html", "command__line__parsing_8c" ],
     [ "command_line_parsing.h", "command__line__parsing_8h.html", "command__line__parsing_8h" ],
     [ "common_types.h", "common__types_8h.html", "common__types_8h" ],
+    [ "enc_dec_function.c", "enc__dec__function_8c.html", "enc__dec__function_8c" ],
+    [ "end_dec_function.h", "end__dec__function_8h.html", "end__dec__function_8h" ],
     [ "hardCodedData.h", "hard_coded_data_8h.html", "hard_coded_data_8h" ]
 ];
